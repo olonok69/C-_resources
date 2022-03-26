@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/.vs
+/project1/project1/.vs/project1/v16
+/project1/project1/Debug/project1.tlog

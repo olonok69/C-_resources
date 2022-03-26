@@ -1,0 +1,5 @@
+﻿  project1.cpp
+F:\repos\c_code\project1\project1\project1.cpp(15,24): warning C4305: '=': truncation from 'double' to 'float'
+F:\repos\c_code\project1\project1\project1.cpp(18,26): warning C4305: '=': truncation from 'double' to 'float'
+F:\repos\c_code\project1\project1\project1.cpp(56,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  project1.vcxproj -> F:\repos\c_code\project1\project1\Debug\project1.exe

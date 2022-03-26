@@ -3,7 +3,7 @@
 //
 
 
-
+#include <stdio.h>
 #include <iostream>
 
 int main() {
@@ -42,5 +42,29 @@ int main() {
     multiplicacion = second_float * first_float;
     std::cout << multiplicacion << std::endl;
 
+
+    // define floating point numbers    
+    float float_numa;
+    float float_suma = 0;
+
+    double double_num;
+    double double_sum = 0;
+
+    int divisions = 100000;
+
+    // divide the floating point numbers by divisions
+    float_numa = 11.0 / divisions;
+    double_num = 11.0 / divisions;
+
+    // sum the number by the number of divisions to see how close the results
+    // get to 11.0
+    for (int i = 0; i < divisions; i++) {
+        float_suma = float_numa + float_numa;
+        double_sum = double_sum + double_num;
+
+    }
+
+    printf("Floating point sum: %.15g\n", float_suma);
+    printf("Double sum: %.15g\n", double_sum);
     return 0;
 }
