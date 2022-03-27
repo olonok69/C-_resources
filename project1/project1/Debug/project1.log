@@ -1,5 +1,7 @@
 ﻿  project1.cpp
-F:\repos\c_code\project1\project1\project1.cpp(15,24): warning C4305: '=': truncation from 'double' to 'float'
-F:\repos\c_code\project1\project1\project1.cpp(18,26): warning C4305: '=': truncation from 'double' to 'float'
-F:\repos\c_code\project1\project1\project1.cpp(56,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\repos\c_code\project1\project1\project1.cpp(17,24): warning C4305: '=': truncation from 'double' to 'float'
+F:\repos\c_code\project1\project1\project1.cpp(20,26): warning C4305: '=': truncation from 'double' to 'float'
+F:\repos\c_code\project1\project1\project1.cpp(58,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\repos\c_code\project1\project1\project1.cpp(138,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+F:\repos\c_code\project1\project1\project1.cpp(139,22): warning C4305: 'initializing': truncation from 'double' to 'float'
   project1.vcxproj -> F:\repos\c_code\project1\project1\Debug\project1.exe

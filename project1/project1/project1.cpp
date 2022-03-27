@@ -5,6 +5,8 @@
 
 #include <stdio.h>
 #include <iostream>
+#include "utils.h"
+
 
 int main() {
 
@@ -66,5 +68,75 @@ int main() {
 
     printf("Floating point sum: %.15g\n", float_suma);
     printf("Double sum: %.15g\n", double_sum);
+
+    // conditionals
+    int x = 5;
+    if (x > 0) {
+        std::cout << "Positive Number" << std::endl;
+    }
+    else if (x < 0) {
+        std::cout << "Negative Number" << std::endl;
+    }
+    else {
+        std::cout << "Zero" << std::endl;
+    }
+
+    
+    char status = 'a';
+
+    if (status == 'a') {
+        std::cout << "Accelerating" << std::endl;
+    }
+    else if (status == 'b') {
+        std::cout << "Braking" << std::endl;
+    }
+    else if (status == 'p') {
+        std::cout << "Parking" << std::endl;
+    }
+    else if (status == 'n') {
+        std::cout << "Neutral" << std::endl;
+    }
+    else {
+        std::cout << "Unknown" << std::endl;
+    }
+
+    // foor loops
+    for (int i = 0; i < 80; i++) {
+        if (i < 10) {
+            std::cout << "slow" << std::endl;
+        }
+        else if (i < 30) {
+            std::cout << "medium" << std::endl;
+        }
+        else if (i < 70) {
+            std::cout << "fast" << std::endl;
+        }
+        else {
+            std::cout << "too fast" << std::endl;
+        }
+
+    }
+
+    // switch
+    char gear_status = 'N';
+
+    switch (gear_status) {
+    case 'D':
+        std::cout << "Driving Forward" << std::endl;
+        break;
+    case 'N':
+        std::cout << "Not Moving - Neutral" << std::endl;
+        break;
+    case 'P':
+        std::cout << "Not Moving - Parked" << std::endl;
+        break;
+    case 'R':
+        std::cout << "Driving in Reverse" << std::endl;
+        break;
+    }
+
+    float a = 1111.1999;
+    float b = 2333.01;
+    std::cout << close_enough(a,b) << std::endl;
     return 0;
 }
