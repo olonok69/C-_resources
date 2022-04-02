@@ -32,4 +32,8 @@
 *.app
 /.vs
 /project1/project1/.vs/project1/v16
-/project1/project1/Debug/project1.tlog
+/project1/project1/Debug
+/project2/c_code/.vs/c_code/v16
+/project2/c_code/Debug
+/project3/math_vectors/.vs/math_vectors/v16
+/project3/math_vectors/Debug

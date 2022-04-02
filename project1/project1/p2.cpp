@@ -1,18 +1,11 @@
-#pragma once
-
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-bool close_enough(float v1, float v2) {
-    if (abs(v2 - v1) > 0.0001) {
-        return false;
-    }
-    return true;
-}
+int main() {
 
-int return_string() {
+    // TODO: change the code so that it no longer uses "std::"    
 
     string fruit = "apple";
     string vegetable = "broccoli";
@@ -21,5 +14,4 @@ int return_string() {
         " and my favorite vegetable is " << vegetable << "\n";
 
     return 0;
-
 }

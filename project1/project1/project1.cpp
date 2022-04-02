@@ -138,5 +138,7 @@ int main() {
     float a = 1111.1999;
     float b = 2333.01;
     std::cout << close_enough(a,b) << std::endl;
+
+    std::cout << return_string() << std::endl;
     return 0;
 }
